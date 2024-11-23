@@ -1,0 +1,16 @@
+# base: 100 epoch, 0.0001 lr, model yolo11n, data = obj_mbkgr (object trên masked background)
+base - 0.3426
+base lare lr - 0.2567 -> lr 0.001
+base_m - 0.2315 -> model yolo11m
+base not mask - 0.5782 -> data = obj_bkgr (object trên background không mask)
+day night - 0.2362 -> 2 model yolo11n train riêng trên data ngày hoặc đêm
+day night conf 0.3 - 0.2226 -> 2 model yolo11n ngày đêm với confidence thấp
+day night_m conf 0.3 - 0.2494 -> yolo11n cho ngày và yolo11m cho đêm với confidence thấp
+
+# base2: 100 epoch cho yolo11m và 200 epoch cho yolo11n, 0.0001 lr, model yolo11n, data = obj_bkgr
+base - 0.5524
+base_m - NaN -> model yolo11m
+day night - NaN -> 2 model yolo11n ngày đêm
+day_m night_m - NaN -> 2 model yolo11m ngày đêm
+
+# Nhóm em chưa kịp test hết những model này và cũng chưa test trên augmented data

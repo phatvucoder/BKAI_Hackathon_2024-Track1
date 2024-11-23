@@ -1,0 +1,11 @@
+ultralytics
+torch
+matplotlib
+opencv-python
+numpy
+pandas
+albumentations
+gdown
+jupyter
+notebook
+git+https://github.com/phatvucoder/pdatakit.git
