@@ -8,4 +8,5 @@ albumentations
 gdown
 jupyter
 notebook
+ensemble-boxes
 git+https://github.com/phatvucoder/pdatakit.git
